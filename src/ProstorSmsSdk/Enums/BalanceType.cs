@@ -10,7 +10,7 @@ namespace ProstorSmsSdk.Enums
             {
                 "RUB" => BalanceType.Rub,
                 "SMS" => BalanceType.Sms,
-                _ => throw new ArgumentOutOfRangeException($"BalanceType has not value: '{type}'")
+                _ => throw new ArgumentOutOfRangeException($"{nameof(BalanceType)} has not value: '{type}'")
             };
         }
     }

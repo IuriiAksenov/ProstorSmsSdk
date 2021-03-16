@@ -1,4 +1,4 @@
-# Неофициальный API для работы с Prostor СМС шлюзом / Unofficial Prostor Sms SDK for prostor-sms.com
+# Неофициальный SDK для работы с Prostor СМС шлюзом / Unofficial Prostor Sms SDK for prostor-sms.com
 
 Prostor Sms SDK позволяет интегрировать в любое приложение отправку СМС.
 
@@ -25,7 +25,7 @@ Prostor Sms SDK позволяет интегрировать в любое пр
 SDK позволяет настроить режим работы (debug/prod). По умолчанию - режим prod.
 Чтобы настроить debug режим, установите параметры:
 ```csharp
-SmsApiClient.isDeveloperMode = true // используется тестовый ваш URL
+SmsApiClient.IsDeveloperMode = true // используется тестовый ваш URL
 ```
 
 ### Структура
