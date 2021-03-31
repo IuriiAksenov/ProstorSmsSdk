@@ -17,7 +17,7 @@ namespace ProstorSmsSdk.UnitTests
         }
 
         [Fact]
-        public async Task GetBalance_ReturnSuccess()
+        public async Task Get_a_balance_of_the_account()
         {
             var response = await _client.GetBalanceAsync();
 
